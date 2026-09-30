@@ -113,7 +113,7 @@
                 // Cargar el PDF original con el nombre correcto
                 const urlPDF = 'williamGonzalez.pdf'; 
                 const respuesta = await fetch(urlPDF);
-                if (!respuesta.ok) throw new Error("No se pudo encontrar el archivo williamGonzalez.pdf");
+                if (!respuesta.ok) throw new Error("No se pudo encontrar el archivo WilliamGonzalez.pdf");
                 const pdfBytesOriginales = await respuesta.arrayBuffer();
                 
                 // Iniciar la modificación del PDF
